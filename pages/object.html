@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .headercontainer 
+        {
+            display: flex;
+            flex-flow: column wrap;
+            align-content: center;
+            background: rgba(0, 43, 16, 0.89);
+            font-weight: bold;
+            color: #F6F3EB;
+        }
+
+        .media 
+        {
+            display: flex;
+            align-items: flex-start;
+            background:yellowgreen;
+            padding: 1em;
+            border-radius: 3px;
+            max-width: 60em;
+        }
+
+        .mediaObject 
+        {
+            margin-right: 1em;
+            width: 180px;
+        }
+
+        .mediaBody 
+        {
+            flex: 1;
+        }
+
+        .heading 
+        {
+            margin: 0 0 15px;
+        }
+        .para
+        {
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>   
+    <div class="media">
+        <img class="mediaObject" src="..\assests\image1.jpg" alt="image">
+        <div class="mediaBody">
+            <h2 class="heading">Originally Synthesized</h2>
+            <p class="para">Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to
+                corporate strategy foster collaborative thinking to further the overall value proposition.Leverage agile
+                frameworks to provide a robust synopsis for high level overviews. Iterative approaches to
+                corporate strategy foster collaborative thinking to further the overall value proposition.</p>
+
+            <div class="media">
+                <img class="mediaObject" src="..\assests\image2.jpg" alt="image">
+                <div class="mediaBody">
+                    <h2 class="heading">Eco Processing</h2>
+                    <p class="para">Holisticly predominate extensible testing procedures for reliable supply chains.Holisticly
+                        predominate extensible testing procedures for reliable supply chains.Holisticly predominate
+                        extensible testing procedures for reliable supply chains.</p>
+                </div>
+            </div>
+        </div>   
+    </div>       
+</body>
+</html>
